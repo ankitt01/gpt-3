@@ -1,7 +1,8 @@
 import React from 'react'
 import './brand.css'
-import { google, slack, atlassian, dropbox, shopify } from './imports';
+import { google, slack, atlassian, dropbox, shopify } from './import';
 const Brand = () => {
+  return(
     <div className="gpt3__brand section__padding">
     <div>
       <img src={google} />
@@ -19,6 +20,8 @@ const Brand = () => {
       <img src={shopify} />
     </div>
   </div>
+
+  )
 }
 
 export default Brand
